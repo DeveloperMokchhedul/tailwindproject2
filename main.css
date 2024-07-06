@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .jobsAssociate{
+        @apply flex items-center gap-5 mb-[10px]  ;
+    }
+    .courseMain{
+        @apply container mx-auto grid grid-cols-12 relative
+    }
+    .courseLeftSite{
+        @apply md:col-span-3 col-span-12 bg-black md:px-4 md:rounded-l-xl text-center md:text-start px-7
+    }
+    .courseRightSiteMain{
+        @apply md:col-span-9 col-span-12 px-7 bg-white pl-5 pb-16
+    }
+    .courseRightTextHeading{
+        @apply text-[#F9CCC7] pt-5 font-semibold text-2xl text-center md:text-start pb-5 md:pb-0 hover:scale-105 transition-all
+    }
+    .courseBtnS {
+        @apply md:pb-[540px] pb-10 flex gap-5 justify-center
+    }
+    .signUpBtn{
+        @apply   bg-[#FFCB45] px-5 py-2 text-white rounded-lg
+    }
+    .nextBtn{
+        @apply bg-white px-5 py-2 text-black rounded-lg
+    }
+    .courseBtnText{
+        @apply text-white text-[10px] pb-7
+    }
+
+
+
+    /* style */
+    
+    .navlistStyle{
+        @apply hover:text-black hover:scale-110 transition-all
+    }
+    .hoverScale{
+       @apply hover:scale-105 transition-all duration-300
+    }
+  
+}
