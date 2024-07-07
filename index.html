@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" class="dark" id="darkClasss">
+<html lang="en" class="dark" id="darkClass">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>tailwindproject2</title>
         <link rel="stylesheet" href="main.css">
     </head>
-    <body class="bg-[#FAFAFA]">
+    <body class="bg-[#FAFAFA] dark:bg-gray-700">
 
         <!-- header start -->
-        <header class="bg-white py-3">
+        <header class="bg-white dark:bg-gray-500  py-3 px-3">
             <nav
-                class="md:container flex justify-between items-center mx-auto px-5 md:px-0 ">
+                class="md:container flex gap-2 md:gap-0 justify-between items-center mx-auto px-5 md:px-0 ">
                 <img class="hover:scale-110 transition-all" src="/image/logo.png" alt="logo">
                 <div class="hidden md:inline-block">
-                    <ul class="flex gap-10 text-gray-700">
+                    <ul class="flex gap-10 text-gray-700 dark:text-white">
                         <li class="navlistStyle ">Home</li>
                         <li class="navlistStyle">About Us</li>
                         <li class="navlistStyle">Upskill</li>
@@ -25,14 +25,14 @@
                     <button
                         class="bg-[#F44335] px-3 py-1 rounded-lg text-[#FFFFFF] hover:scale-110 transition-all">Register
                         Interest</button>
-                    <button id="moon"><img class="w-8/12 hover:scale-125 transition-all" src="image/moon.png" alt></button>
+                    <button id="moon"><img class=" dark:bg-white dark:p-1 dark:rounded-full w-8/12 hover:scale-125 transition-all" src="image/moon.png" alt></button>
                 </div>
             </nav>
         </header>
         <!-- header end -->
 
         <!-- hero section start -->
-        <section class="md:mt-12 pt-10 text-center md:text-start p-5 md:p-0">
+        <section class="dark:text-white md:mt-12 pt-10 text-center md:text-start p-5 md:p-0 px-5">
             <div class="grid grid-cols-12  md:container md:mx-auto w-full">
                 <!-- hero left site -->
                 <div class="md:col-span-6 col-span-12">
@@ -55,31 +55,31 @@
                     <div class="flex justify-between md:mt-10 mt-2 p-3 md:p-0">
                         <div class="flex flex-col items-center">
                             <p
-                                class="text-[#00FF84] font-semibold text-xl ">438</p>
+                                class="text-[#00FF84] dark:text-[#6fe9ae] font-semibold text-xl ">438</p>
                             <p>Videos</p>
                         </div>
 
                         <div flex flex-col items-center>
                             <p
-                                class="text-[#00FF84] text-center font-semibold text-xl">151</p>
+                                class="text-[#00FF84] dark:text-[#6fe9ae]  text-center font-semibold text-xl">151</p>
                             <p>Readings</p>
                         </div>
 
                         <div flex flex-col items-center>
                             <p
-                                class="text-[#00FF84] text-center font-semibold text-xl">108</p>
+                                class="text-[#00FF84] dark:text-[#6fe9ae] text-center font-semibold text-xl">108</p>
                             <p>Quizzes</p>
                         </div>
 
                         <div flex flex-col items-center>
                             <p
-                                class="text-[#00FF84] text-center font-semibold text-xl">24</p>
+                                class="text-[#00FF84] dark:text-[#6fe9ae] text-center font-semibold text-xl">24</p>
                             <p>Exercies</p>
                         </div>
 
                         <div items-center>
                             <p
-                                class="text-[#00FF84] text-center font-semibold text-xl">4</p>
+                                class="text-[#00FF84] dark:text-[#6fe9ae] text-center font-semibold text-xl">4</p>
                             <p>Assinments</p>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
         <!-- hero section end -->
 
         <!-- company section start -->
-        <section class="bg-white md:py-7 mt-5  ">
+        <section class="dark:bg-gray-500 dark:text-white py-5 dark:text-white= bg-white md:py-7 mt-5  px-5 ">
             <div class="flex items-center md:container justify-center flex-wrap md:mx-auto ">
                 <div class="hoverScale  md:pr-7">
                     <p class="md:px-0 px-12 md:text-start  text-center">Pave your path to career success by <br>  gaining a
@@ -127,10 +127,10 @@
         <!-- company section end -->
 
         <!-- what you will learn start -->
-        <section class="mt-16 mb-16">
+        <section class="mt-16 mb-16 px-5">
             <div class="grid grid-cols-12 container mx-auto gap-5 ">
                 <div class="md:col-span-6 col-span-12 ">
-                    <div class=" mx-auto bg-white border rounded-lg p-5 gap-3 ">
+                    <div class="dark:bg-gray-600 dark:text-white mx-auto bg-white border rounded-lg p-5 gap-3 ">
                         <h3 class="text-2xl border-b border-red-300 pb-5 text-center md:text-start">What
                             you will learn</h3>
                         <div class=" hoverScale flex items-center gap-5 pt-5 mb-12">
@@ -161,12 +161,12 @@
                 </div>
 
                 <div class="md:col-span-6 col-span-12 ">
-                    <div class=" mx-auto bg-white border rounded-lg p-7 gap-3 ">
-                        <img class="hoverScale" src="image/IT_social 1.png" alt>
-                        <h1 class="border-b border-red-200 pb-5">Skills you will
+                    <div class="dark:bg-gray-600 dark:text-white mx-auto bg-white border rounded-lg p-7 gap-3 ">
+                        <img class="hoverScale dark:rounded-lg" src="image/IT_social 1.png" alt>
+                        <h1 class="border-b border-red-200 pb-1 pt-5">Skills you will
                             gain </h1>
 
-                        <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-1">
+                        <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-1 justify-center md:justify-start">
                             <button
                                 class="hoverScale border border-red-400 px-2 py02 rounded-full">Debugging</button>
                             <button
@@ -210,10 +210,10 @@
         <!-- what you will learn end -->
 
         <!--jobs associatedstart --> 
-        <section class="mt-16 mb-16">
+        <section class="mt-16 mb-16 px-5">
             <div class="grid grid-cols-12 container mx-auto gap-5 ">
                 <div class="md:col-span-6 col-span-12 ">
-                    <div class=" mx-auto bg-white border rounded-xl p-5 gap-3 ">
+                    <div class="dark:bg-gray-600 dark:text-white mx-auto bg-white border rounded-xl p-5 gap-3 ">
                         <h3 class="text-2xl border-b border-red-300 pb-5 text-center md:text-start">Jobs
                             Assocaited with Certificate</h3>
                         <div class="flex mt-5 gap-5 ">
@@ -244,7 +244,7 @@
 
                             <div>
                                 <div class="hoverScale jobsAssociate">
-                                    <img src="image/arro icon.png" alt>
+                                    <img class="dark:rounded-lg" src="image/arro icon.png" alt>
                                     <p class="text-[16px]">Help desk
                                         technician</p>
                                 </div>
@@ -282,14 +282,14 @@
         <!--jobs associated end -->
 
         <!-- course section start -->
-        <section class="bg-white relative  md:pb-5 p-5 ">
+        <section class="dark:bg-gray-600 dark:text-white bg-white relative  md:pb-5 p-5 px-5">
             <div class="absolute md:w-[220px] w-[150px] md:-top-4 -top-3 right-2 z-30 ">
                 <img  class="hoverScale" src="image/batch.png" alt>
             </div>
             <div class="container mx-auto relative pb-6  ">
                 <h1 class="md:font-semibold md:text-[41px] text-[20px] md:leading-10 pt-10">There are
                     5 Courses in this <br> Professional Certificate</h1>
-                <div class="flex flex-wrap md:gap-24 gap-5 mt-10 border-b border-red-300 pb-5 ">
+                <div class="flex flex-wrap md:gap-24 gap-5 border-b border-red-300 pb-5 md:mt-5 mt-10  gap-y-5 gap-x-1 justify-center md:justify-start ">
                     <button
                         class="hoverScale border border-black text-sm px-3  rounded-full uppercase">course
                         1</button>
@@ -310,7 +310,7 @@
         </section>
         <!-- course section end -->
 
-        <section class="md:py-28    ">
+        <section class="md:py-28 px-5   ">
             <div class="courseMain">
                 <img class=" w-10/12 absolute -bottom-56 left-24" src="image/1connector.png" alt="">
                 <div class="courseLeftSite  ">
@@ -410,7 +410,7 @@
                             <div>
                                 <h1
                                 class="courseRightTextHeading">Skills you will gain</h1>
-                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7">
+                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7 md:justify-start justify-center">
                                     <button
                                         class="hoverScale border border-red-400 px-5 py-1 rounded-full">Binary Code</button>
                                     <button
@@ -435,7 +435,7 @@
                                     class="courseRightTextHeading">Information</h1>
 
                                     <div>
-                                        <ul class="text-center md:text-start pt-5 ">
+                                        <ul class="text-center md:text-start pt-5 space-y-3 ">
                                             <li class="">Flexible deadlines</li>
                                             <li>Shareable Certificate</li>
                                             <li>100% online</li>
@@ -451,7 +451,7 @@
 
             </div>
         </section>
-        <section class="md:pt-28 md:pb-56    ">
+        <section class="md:pt-28 md:pb-56 px-5    ">
             <div class="courseMain">
                 <img class=" w-10/12 absolute -bottom-80 left-24" src="image/2connector.png" alt="">
                 <div class="courseLeftSite  ">
@@ -538,7 +538,7 @@
                             <div>
                                 <h1
                                 class="courseRightTextHeading">Skills you will gain</h1>
-                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7">
+                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7 md:justify-start justify-center">
                                     <button
                                         class="hoverScale border border-red-400 px-5 py-1 rounded-full">Domain Name System(DNS)</button>
                                     <button
@@ -563,7 +563,7 @@
                                     class="courseRightTextHeading">Information</h1>
 
                                     <div>
-                                        <ul class="text-center md:text-start pt-5 ">
+                                        <ul class="text-center md:text-start pt-5 space-y-3 ">
                                             <li class="">Flexible deadlines</li>
                                             <li>Shareable Certificate</li>
                                             <li>100% online</li>
@@ -579,7 +579,7 @@
 
             </div>
         </section>
-        <section class="md:pt-28 md:pb-56    ">
+        <section class="md:pt-28 md:pb-56  px-5  ">
             <div class="courseMain">
                 <img class=" w-10/12 absolute -bottom-80 left-24" src="image/2.2connector.png" alt="">
                 <div class="courseLeftSite  ">
@@ -669,7 +669,7 @@
                             <div>
                                 <h1
                                 class="courseRightTextHeading">Skills you will gain</h1>
-                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7">
+                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7 md:justify-start justify-center">
                                     <button
                                         class="hoverScale border border-red-400 px-5 py-1 rounded-full">Powershell</button>
                                     <button
@@ -693,7 +693,7 @@
                                     class="courseRightTextHeading">Information</h1>
 
                                     <div>
-                                        <ul class="text-center md:text-start pt-5 ">
+                                        <ul class="text-center md:text-start pt-5 space-y-3 ">
                                             <li class="">Flexible deadlines</li>
                                             <li>Shareable Certificate</li>
                                             <li>100% online</li>
@@ -709,7 +709,7 @@
 
             </div>
         </section>
-        <section class="md:pt-28 md:pb-56    ">
+        <section class="md:pt-28 md:pb-56 px-5   ">
             <div class="courseMain">
                 <img class=" w-10/12 absolute -bottom-80 left-24" src="image/4connector.png" alt="">
                 <div class="courseLeftSite  ">
@@ -801,11 +801,11 @@
                             <div>
                                 <h1
                                 class="courseRightTextHeading">Skills you will gain</h1>
-                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7">
+                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7 md:justify-start justify-center">
                                     <button
                                         class="hoverScale border border-red-400 px-5 py-1 rounded-full">Directory Service</button>
                                     <button
-                                        class="hoverScale border border-red-400 px-5 py-1 rounded-full">Lightweight Directory Access Protocol (LDAP)
+                                        class="hoverScale border border-red-400 px-5 py-1 rounded-full text-sm md:text-lg">Lightweight Directory Access Protocol (LDAP)
                                         </button>
                                     <button
                                         class="hoverScale border border-red-400 px-5 py-1 rounded-full">
@@ -822,7 +822,7 @@
                                     class="courseRightTextHeading">Information</h1>
 
                                     <div>
-                                        <ul class="text-center md:text-start pt-5 ">
+                                        <ul class="text-center md:text-start pt-5 space-y-3 ">
                                             <li class="">Flexible deadlines</li>
                                             <li>Shareable Certificate</li>
                                             <li>100% online</li>
@@ -838,7 +838,7 @@
 
             </div>
         </section>
-        <section class="md:py-28    ">
+        <section class="md:py-28  px-5  ">
             <div class="courseMain">
                 <div class="courseLeftSite  ">
                     <p class="text-[#00FF84] pt-2">Course 5</p>
@@ -916,7 +916,7 @@
                             <div>
                                 <h1
                                 class="courseRightTextHeading">Skills you will gain</h1>
-                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7">
+                                <div class=" mt-5 flex flex-wrap gap-y-5 gap-x-7 md:justify-start justify-center">
                                     <button
                                         class="border border-red-400 px-5 py-1 rounded-full">Cybersecurity</button>
                                     <button
@@ -941,7 +941,7 @@
                                     class="courseRightTextHeading">Information</h1>
 
                                     <div>
-                                        <ul class="text-center md:text-start pt-5 ">
+                                        <ul class="text-center md:text-start pt-5  space-y-3">
                                             <li class="">Flexible deadlines</li>
                                             <li>Shareable Certificate</li>
                                             <li>100% online</li>
@@ -966,22 +966,22 @@
         
 
 <!-- button banner  -->
-        <section class="relative md:pt-4 ">
+        <section class="relative md:pt-4 px-5 ">
             <img src="image/buttom banner.png" alt="">
             <div class="container mx-auto absolute md:top-10 md:left-28 top-2 left-5 hoverScale">
-                <div class="md:w-[470px] w-[380px] bg-white md:p-7 p-3 rounded-lg">
+                <div class="md:w-[470px] w-[370px] dark:bg-gray-600 dark:text-white bg-white md:p-7 p-2 rounded-lg">
                     <img class="md:w-10 w-3 md:pt-4 pt-1 md:pb-5 pb-1" src="image/cote.png" alt="">
                     <p class="md:font-semibold md:text-[24px] text-[12px]">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do
                     </p>
 
-                    <p class="md:pt-5 md:pb-3  text-[14px] text-[#F9CCC7]">Daniel, IT Support Specialist at Central Community  College and Google IT Support Certificate graduate</p>
+                    <p class="md:pt-5 md:pb-3  md:text-[14px] text-[12px] text-[#F9CCC7]">Daniel, IT Support Specialist at Central Community  College and Google IT Support Certificate graduate</p>
                 </div>
             </div>
 
         </section>
 
-        <div class="bg-white py-10 px-5 md:px-0 md:text-start text-center">
-            <div class="grid grid-cols-12 container mx-auto gap-y-5">
+        <div class= "dark:bg-gray-600 dark:text-white bg-white py-10 px-5 md:px-0 md:text-start text-center ">
+            <div class="grid grid-cols-12 container mx-auto gap-y-5 px-5">
                 <div class="md:col-span-4 col-span-6">
                     <img class="hoverScale" src="image/logo.png" alt="">
                     <ul class="flex flex-col gap-1 pt-3">

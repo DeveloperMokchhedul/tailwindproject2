@@ -12,7 +12,7 @@
         @apply md:col-span-3 col-span-12 bg-black md:px-4 md:rounded-l-xl text-center md:text-start px-7
     }
     .courseRightSiteMain{
-        @apply md:col-span-9 col-span-12 px-7 bg-white pl-5 pb-16
+        @apply md:col-span-9 col-span-12 px-7 dark:bg-gray-600 dark:text-white bg-white pl-5 pb-16
     }
     .courseRightTextHeading{
         @apply text-[#F9CCC7] pt-5 font-semibold text-2xl text-center md:text-start pb-5 md:pb-0 hover:scale-105 transition-all
